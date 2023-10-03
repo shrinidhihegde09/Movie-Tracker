@@ -11,7 +11,7 @@ import SwiftUI
 struct Movie_TrackerApp: App {
     var body: some Scene {
         WindowGroup {
-            ContentView()
+            MovieDetails(movie: Movie(), newMovie: true, movieStorage: MovieStorage())
         }
     }
 }
